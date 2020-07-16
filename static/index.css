@@ -7,3 +7,21 @@ body {
     font-weight: bold;
     text-align: center;
 }
+
+#content {
+    border: 2px black dashed;
+    width: 10%;
+    height: 75%;
+}
+#TOC {
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+}
+.toc-con {
+    margin: 8%;
+    display: inline-block;
+}
+.toc-con-text {
+    transform: scaleY(1.38);
+}
