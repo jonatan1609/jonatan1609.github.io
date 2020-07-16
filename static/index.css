@@ -10,6 +10,7 @@ body {
 
 #table-of-contents {
     border: 2px black dashed;
+    height: -moz-max-content;
     height: fit-content;
 
 }
