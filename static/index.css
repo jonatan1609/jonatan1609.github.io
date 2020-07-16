@@ -10,8 +10,8 @@ body {
 
 #table-of-contents {
     border: 2px black dashed;
-    width: 10%;
-    height: 75%;
+    height: fit-content;
+
 }
 #TOC {
     font-weight: bold;
@@ -20,8 +20,13 @@ body {
 }
 .toc-con {
     margin: 8%;
-    display: inline-block;
 }
-.toc-con-text {
-    transform: scaleY(1.38);
+#content {
+    text-align: center;
+}
+#wrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 10% 80%;
+    grid-gap: 20px;
 }
