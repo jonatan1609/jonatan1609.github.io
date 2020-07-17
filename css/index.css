@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #ede3c7;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+.main-text {
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    text-align: center;
+    font-size: 3vh;
+    padding-top: 7vh;
+}
+
+.table-of-contents {
+    border: .2vh black dashed;
+    height: -moz-max-content;
+    height: fit-content;
+    width: 10vw;
+
+}
+.TOC {
+    font-weight: bold;
+    font-size: 1vw;
+    text-align: center;
+
+}
+.toc-con {
+    margin: 8%;
+    font-size: 1vw;
+}
+.content {
+    margin: 4vw;
+    text-align: center;
+    font-size: 2vw;
+}
+.wrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 10% 77%;
+    grid-gap: 2vh;
+}
+.btm {
+    text-align: center;
+    font-size: 2vh;
+}
+.btm-wrpr {
+    bottom: 1vh;
+    position: sticky;
+    width: 100%;
+}
+.main-text-wrapper {
+    height: 5vh;
+    width: 100vw;
+    text-align: center;
+}
