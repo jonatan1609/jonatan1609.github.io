@@ -20,18 +20,18 @@ body {
     border: .2vh black dashed;
     height: -moz-max-content;
     height: fit-content;
-    width: 10vw;
+    width: 20vw;
 
 }
 .TOC {
     font-weight: bold;
-    font-size: 1vw;
+    font-size: 2vw;
     text-align: center;
 
 }
 .toc-con {
     margin: 8%;
-    font-size: 1vw;
+    font-size: 1.6vw;
 }
 .content {
     margin: 4vw;
